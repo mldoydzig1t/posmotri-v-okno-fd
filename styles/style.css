@@ -54,6 +54,7 @@ ol {
 
 .content {
   display: flex;
+  align-items: flex-end;
   inline-size: 1140px;
   gap: 30px;
   margin: auto;
@@ -62,6 +63,7 @@ ol {
 /* Левая колонка: плеер и форма поиска */
 
 .result {
+  flex-shrink: 0;
   inline-size: 711px;
 }
 
@@ -116,7 +118,7 @@ ol {
   color: #fff;
   font-family: inherit;
   font-size: 18px;
-  line-height: 19px;
+  line-height: 1.055556;
   background-color: transparent;
   appearance: none;
 }
